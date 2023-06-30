@@ -1,0 +1,311 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OGE Informatika</title>
+	<link rel="stylesheet" href="style.css">
+	 
+		<link rel="stylesheet" href="media.css">
+</head>
+<body >
+	<div class="show-siderbar">
+		<header class="header open">
+			<div class="header__left">
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link " href="index.html">Главная</a></li>
+						<li class="nav__item"><a class="nav__link has-subnav" href="#">Материалы</a>
+							<ul class="subnav">
+								<li>
+									<a class="subnav__link" href="#">Теория</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">Практика</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">"Шпаргалки"</a>
+								</li>
+							</ul>
+
+						</li>
+						<li class="nav__item"><a class="nav__link"  href="works.html">Обо мне</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Реклама</a></li>
+						
+					</ul>
+				</nav>
+
+<!--/бургер --> 
+
+				<button class="burger active" type="button" id="sidebarToggle"> 
+<span class="burger__open">
+	открыть навигацию
+</span>
+				</button>
+
+
+
+
+<!--/конец бургер --> 
+
+
+			</div>
+			<div class="header__right">
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item" ><a class="nav__link" href="signin.html">Войти</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Выйти</a></li>
+					</ul>
+				</nav>
+				<form class="search" action="/" method="post">
+					<input class="search__input" type="text" placeholder="Поиск по сайту">
+				</form>
+			</div>
+		</header>
+		<aside class="sidebar " id="sidebar">
+			<div class="sidebar__header">
+				<img class="sider__header_img" src="sidebar.jpg" alt="" >
+			</div>	
+			<div class="sidebar__content">
+				<div class="profile">
+					
+					<img src="teacher.png" alt="" class="avatar">
+					<div class="profile__header">
+					<div class="profile__name">			Юлия Николаевна Маслова	
+					</div>
+					<div class="profile__prof">учитель информатики высшей квалификационной категории</div>
+					</div>
+
+<nav class=" nav--mobile">
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link " href="index.html">Главная</a></li>
+						<li class="nav__item"><a class="nav__link has-subnav" href="#">Материалы</a>
+							<ul class="subnav">
+								<li>
+									<a class="subnav__link" href="#">Теория</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">Практика</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">"Шпаргалки"</a>
+								</li>
+							</ul>
+
+						</li>
+						<li class="nav__item"><a class="nav__link"  href="works.html">Обо мне</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Реклама</a></li>
+						<li class="nav__item"><a class="nav__link" href="profile.html">Профиль</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Выйти</a></li>
+					</ul>
+
+				</nav>
+
+
+
+
+					<ul class="social">
+						<li class="social__item">
+							<a class="social__link" href="#" target="blank"><img src="instagram.svg" alt=""></a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" target="blank"><img src="vk.svg" alt=""></a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" target="blank"><img src="pinterest.svg" alt=""></a>
+						</li>
+						
+					</ul>
+					<div class="profile__text">
+						<p>стаж работы в школе: 6 лет <br>
+							подготовка к ОГЭ<br>
+							более 150 выпускников<br>
+							высокие результаты<br>
+						наличие стобалльников</p>
+					</div>
+
+				</div> <!--/profile --> 
+			</div>  <!--/sidebar__content --> 	
+			<div class="sidebar__footer">
+				<button onclick="document.location='works.html'" class="btn btn--blue" type="button" >Обо мне</button>
+				<button class="btn btn--red" type="button" data-modal="contact-modal">Написать мне</button>
+			</div>	
+		</aside>
+				<main class="main">
+					<div class="container">
+						<article class="post">
+							<div class="post__actions">
+								<a class="post__actions--link"  href="index.html">вернуться назад</a>
+								<a class="post__actions--link" data-modal="del-modal" href="#">поделиться<img class="post__actions--icon" src="share.svg" alt="">
+
+								</a>
+							</div>
+							<div class="post__header post__header--open">
+								<h1 class="post__title post__title--mb0">
+									Подводные камни задния №8 
+								</h1>
+								<ul class="post__data">
+									<li class="post__data-item">
+										<time datetime="2023-02-24 12:30">24.02.2023</time>
+									</li>
+									<li class="post__data-item">
+										<a class="post__text-link" href="#">решу огэ</a>
+									</li>
+								</ul>
+							</div>
+							<div class="post__content">
+								<div class="post__text">
+									<h2>Как не потерять баллы?</h2>
+									<p class="post__rext">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore atque, sequi corporis voluptatum autem ex ratione maxime itaque ea distinctio, molestias, ducimus architecto et. Aut officiis numquam, tempora alias fugit.
+								</p>
+								<p>
+								<img class="post__preview" src="post2.jpg" alt="Что нужно знать для задания №8 ОГЭ">
+								</p>
+								</div> <!--post text end-->
+
+								
+							</div> <!--post__content end-->
+
+							<div class="related">
+								<h3 class="related_title">Интересно почитать</h3>
+								<ul class="related__list">
+									<li class="related__list-item">
+										<h4 class="related__list-title">
+											<a class="related__list-title__link" href="#">Как я сходила на тренинг</a>
+										</h4>
+										<time class="related__list-time" datetime="2022-06-21"> 21.06.2022</time>
+									</li>
+									<li class="related__list-item">
+										<h4 class="related__list-title">
+											<a class="related__list-title__link" href="#">Купила новый компьютер за 150 000 руб</a>
+										</h4>
+										<time class="related__list-time" datetime="2022-06-21"> 21.06.2022</time>
+									</li>
+									<li class="related__list-item">
+										<h4 class="related__list-title">
+											<a class="related__list-title__link" href="#">Самые легкие задания ОГЭ по информатике</a>
+										</h4>
+										<time class="related__list-time" datetime="2022-06-21"> 21.06.2022</time>
+									</li>
+									<li class="related__list-item">
+										<h4 class="related__list-title">
+											<a class="related__list-title__link" href="#">Как готовиться к ОГЭ</a>
+										</h4>
+										<time class="related__list-time" datetime="2022-06-21"> 21.06.2022</time>
+									</li>
+								</ul>
+							</div><!--related end-->
+							<div class="comments">
+								<h3 class="comments__title">
+									Обсуждение
+								</h3>
+								<form class="form" action="/" method="post">
+									<div class="form__group">
+									<textarea class="form__control" name="comments__text" placeholder="текст комментария"></textarea>
+									<span class="form__line"></span>
+									</div>
+									<button class="btn btn--blue btn--rounded  " type="submit">Отправить</button>
+								</form>
+								<ul class="comments1">
+									<li class="comments1__item">
+										<div class="comments1__header">
+											<img class="comments1__avatar" src="https://placehold.it/30" alt="">
+											<div class="comments1__author">
+											<div class="comments1__name">Катя Петрова</div>
+											<time class="comments1__pubdate" datetime="2023-12-21 19:21"> 1 неделю назад</time>
+											</div>
+										</div>
+										<div class="comments__text">
+											Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Delectus a nulla nemo voluptatum iure non vel officia dolorem veritatis, deserunt est, in enim inventore aperiam praesentium quo velit excepturi maiores?
+										</div>
+										<button class="comments__reply" type="button">Ответить</button>
+										<ul class="comments1">
+									<li class="comments1__item">
+										<div class="comments1__header">
+											<img class="comments1__avatar" src="https://placehold.it/30" alt="">
+											<div class="comments1__author">
+											<div class="comments1__name">Катя Петрова</div>
+											<time class="comments1__pubdate" datetime="2023-12-21 19:21"> 1 неделю назад</time>
+											</div>
+										</div>
+										<div class="comments__text">
+											Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Delectus a nulla nemo voluptatum iure non vel officia dolorem veritatis, deserunt est, in enim inventore aperiam praesentium quo velit excepturi maiores?
+										</div>
+										<button class="comments__reply" type="button">Ответить</button>
+									</li>
+								</ul>
+									</li>
+								</ul>
+							</div>
+
+						</article><!--post end-->
+					</main>
+				</div>
+			</div>
+
+	
+
+
+
+	<!--модальное окно контакты--> 
+		<div class="modal" id="contact-modal">
+	<div class="modal_content modal_content-contact">
+		<button class="modal_close" type="button"><img src="close.svg" alt="закрыть">
+				
+		</button>
+		<form action="/" class="form " method="post">
+				
+		<div class="form__group  form__group--md">
+			<input type="text" class="form__control" placeholder="Ваше имя">
+			<span class="form__line"></span>
+		</div>
+		
+		<div class="form__group  form__group--md">
+			<input type="email" class="form__control" placeholder="Введите ваш e-mail">
+			<span class="form__line"></span>
+			</div>
+			<div class="form__group  form__group--md">
+				<textarea class="form__control form__control--textarea" placeholder="Текст сообщения" data-autoresize name="" ></textarea>
+				</div>
+		<div class="form__footer ">
+			<button class="btn btn--blue btn--rounded " type="submit">Отправить</button>
+		</div>
+		
+			</form>
+			<ul class="modal__footer">
+				<li class="modal__footer-list">e-mail: <a class="modal__footer-link" href="mailto:info@mywebsite.ru"> info@mywebsite.ru</a></li>    
+				<li class="modal__footer-list"> тел: <a class="modal__footer-link" href="tel:+94323285622">+943-232-856-22</a></li>
+			</ul>
+			
+			
+	</div><!--конец  modal_content--> 
+</div> <!--конец  модальное окно контакты  modal--> 
+
+
+
+
+<!--модальное окно поделиться--> 
+		<div class="modal" id="del-modal">
+	<div class="modal_content">
+		<button class="modal_close" type="button"><img src="close.svg" alt="закрыть">
+				
+		</button>
+		<ul class="social">
+						<li class="social__item">
+							<a class="social__link" href="#" ><img src="ins.png" alt=""></a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" ><img src="vk.png" alt=""></a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" ><img src="tg.png" alt=""></a>
+						</li>
+						
+					</ul>
+			
+	</div><!--конец  modal_content--> 
+</div> <!--конец  модальное окно поделиться  modal--> 
+
+			<script src="modal.js"></script>
+		</body>
+		</html>

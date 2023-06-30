@@ -1,0 +1,110 @@
+
+
+/*пк*/
+
+@media (max-width: 10000px){
+	.burger{
+display: none;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*планшет*/
+
+
+@media (max-width: 991px){
+	.sidebar{
+transform: translateX(-100%);
+transition: transform .2s linear;
+
+}
+}
+
+
+@media (max-width: 991px){
+	.burger{
+	width: 3rem;
+	height: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 1.5rem;
+	transform: translateY(-50%);
+	background: none;
+	border-radius: 0;
+	border: none;
+	padding: 0;
+	font-size: 0;
+	color: transparent;
+	display: block;
+}
+
+
+
+
+@media (max-width: 991px){
+	.main{
+padding-left: 0;
+	}
+}
+
+
+@media (max-width: 991px){
+	.header{
+width: 100%;
+	}
+}
+@media screen and (max-width: 991px){
+	.nav{
+display: none;
+	}
+}
+
+@media  (max-width: 991px){
+	.header__left{
+width: 40%;
+	}
+}
+
+@media  (max-width: 991px){
+	.header__right{
+width: 60%;
+	}
+
+	.header.open .sidebar{
+transform: translateX(+100%);
+transition: transform .2s linear;
+	}
+}
+
+
+
+
+
+
+
+/*мобильная*/
+
+@media screen and (max-width: 700px){
+	.nav{
+display: none;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.container{
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+	}
+}
+

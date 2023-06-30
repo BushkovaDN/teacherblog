@@ -1,0 +1,189 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search</title>
+	<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="media.css">
+</head>
+<body >
+	<div class="show-siderbar">
+		<header class="header open">
+			<div class="header__left">
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link " href="index.html">Главная</a></li>
+						<li class="nav__item"><a class="nav__link has-subnav" href="#">Материалы</a>
+							<ul class="subnav">
+								<li>
+									<a class="subnav__link" href="#">Теория</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">Практика</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">"Шпаргалки"</a>
+								</li>
+							</ul>
+
+						</li>
+						<li class="nav__item"><a class="nav__link"  href="works.html">Обо мне</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Реклама</a></li>
+						
+					</ul>
+				</nav>
+
+<!--/бургер --> 
+
+				<button class="burger active" type="button"> 
+<span class="burger__open">
+	открыть навигацию
+</span>
+				</button>
+
+
+
+
+<!--/конец бургер --> 
+
+
+			</div>
+			<div class="header__right">
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link" href="profile.html">Профиль</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Выйти</a></li>
+					</ul>
+				</nav>
+				<form class="search" action="/" method="post">
+					<input class="search__input" type="text" placeholder="Поиск по сайту">
+				</form>
+			</div>
+		</header>
+		<aside class="sidebar " id="sidebar">
+			<div class="sidebar__header">
+				<img class="sider__header_img" src="sidebar.jpg" alt="" >
+			</div>	
+			<div class="sidebar__content">
+				<div class="profile">
+					
+					<img src="" alt="" class="avatar">
+					<div class="profile__header">
+					<div class="profile__name">			Юлия Николаевна Маслова	
+					</div>
+					<div class="profile__prof">высшая квалификационная категория</div>
+					</div>
+
+<nav class=" nav--mobile">
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link " href="index.html">Главная</a></li>
+						<li class="nav__item"><a class="nav__link has-subnav" href="#">Материалы</a>
+							<ul class="subnav">
+								<li>
+									<a class="subnav__link" href="#">Теория</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">Практика</a>
+								</li>
+								<li>
+									<a class="subnav__link"  href="#">"Шпаргалки"</a>
+								</li>
+							</ul>
+
+						</li>
+						<li class="nav__item"><a class="nav__link"  href="works.html">Обо мне</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Реклама</a></li>
+						<li class="nav__item"><a class="nav__link" href="profile.html">Профиль</a></li>
+						<li class="nav__item"><a class="nav__link" href="#">Выйти</a></li>
+					</ul>
+
+				</nav>
+
+
+
+
+					<ul class="social">
+						<li class="social__item">
+							<a class="social__link" href="#" target="blank"><img src="instagram.svg" alt=""></a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" target="blank"><img src="vk.svg" alt=""></a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" target="blank"><img src="pinterest.svg" alt=""></a>
+						</li>
+						
+					</ul>
+					<div class="profile__text">
+						<p>стаж работы в школе: 6 лет <br>
+							подготовка к ОГЭ<br>
+							более 150 выпускников<br>
+							высокие результаты<br>
+						наличие стобалльников</p>
+					</div>
+
+				</div> <!--/profile --> 
+			</div>  <!--/sidebar__content --> 	
+			<div class="sidebar__footer">
+				<button onclick="document.location='works.html'" class="btn btn--blue" type="button" >Мои работы</button>
+				<button class="btn btn--red" type="button">Написать мне</button>
+			</div>	
+		</aside>
+		<main class="main">
+			<div class="container">
+				<h1 class="page__title" >Результаты поиска</h1>
+<article class="post">
+					
+					<div class="post__content">
+						<h2 class="post__title">
+							<a class="post__text-link"  href="#">Подводные камни задния №2 </a>
+						</h2>
+						<p class="post__rext">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore atque, sequi corporis voluptatum autem ex ratione maxime itaque ea distinctio, molestias, ducimus architecto et. Aut officiis numquam, tempora alias fugit.
+						</p>
+					</div>
+					<div class="post__footer">
+						<ul class="post__data">
+							<li class="post__data-item">
+								<time datetime="2023-02-24 12:30">24.02.2023</time>
+							</li>
+							<li class="post__data-item">
+								<a class="post__text-link" href="#">решу огэ</a>
+							</li>
+						</ul>
+						<a class="post__read" href="#">Перейти</a>
+					</div>
+
+				</article>
+					<article class="post">
+					<div class="post__header post__header--video ">
+						<div class="movie-fixed">
+							<div class="embed">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/LmxCT8dlYao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="post__content">
+						<h2 class="post__title">
+							<a class="post__text-link"  href="#">Как настроить новую версиею KuMir 2.1 </a>
+						</h2>
+						
+					</div>
+					<div class="post__footer">
+						<ul class="post__data">
+							<li class="post__data-item">
+								<time datetime="2020-06-21 19:20">21.06.2020</time>
+							</li>
+							<li class="post__data-item">
+								<a class="post__text-link" href="#">решу огэ</a>
+							</li>
+						</ul>
+						<a class="post__read" href="#">Перейти</a>
+					</div>
+					
+				</article>
+			</main>
+		</div>
+	</div>
+</body>
+</html>
